@@ -1,0 +1,70 @@
+.section__content {
+  background-color: $color-main;
+}
+
+.content {
+  padding: 30px;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content-list {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+
+  padding-bottom: 30px;
+
+  /* Делаем чтобы навигация прижималась к правому краю */
+  min-width: calc(100% + 30px);
+  overflow-x: auto;
+
+  /* Убираем перенос слов на новую строку */
+  white-space: nowrap;
+
+  /* Прячем горизонтальный скролл */
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.content-description {
+  padding-top: 30px;
+  border-top: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-card {
+  color: #FFFFFF;
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    padding: 0px;
+    margin: 0px;
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+.content-list-item {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: $color-grey-text;
+}
+
+.item-is-active {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

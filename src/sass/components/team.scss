@@ -1,0 +1,51 @@
+.section__team {
+  padding: 30px;
+}
+
+.img__border {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.team__description {
+  padding: 30px;
+  background-color: $color-grey-bg;
+}
+
+.team__words {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cooperator__name {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+}
+
+.job__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.container__team {
+  margin-bottom: 30px;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

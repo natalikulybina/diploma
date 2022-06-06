@@ -1,0 +1,58 @@
+.section__services {
+  padding: 30px;
+  background: $color-gradient-supersoft;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.note {
+  margin: 0;
+  margin-bottom: 5px;
+  color: $color-active-regular;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.title {
+
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.services__card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 315px;
+  gap: 30px;
+}
+
+.card__img {
+  margin-bottom: 30px;
+}
+
+.card__title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: $color-active-regular;
+}
+
+.card__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}

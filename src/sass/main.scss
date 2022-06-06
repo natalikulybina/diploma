@@ -1,0 +1,47 @@
+@import 'utils/fonts.scss';
+@import 'utils/variables.scss';
+@import 'components/header.scss';
+@import 'components/content.scss';
+@import 'components/cards.scss';
+@import 'components/team.scss';
+@import 'components/company.scss';
+@import 'components/publications.scss';
+@import 'components/footer.scss';
+
+html {
+  font-size: 18px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body,
+h2,
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.note::after {
+  content: " >";
+}
