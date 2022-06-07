@@ -43,5 +43,6 @@ a {
 }
 
 .note::after {
-  content: " >";
+  content: url(../img/Vector.svg);
+  margin-left: 5.5px;
 }

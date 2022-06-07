@@ -17,7 +17,6 @@
 
 
 .title {
-
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 30px;
@@ -27,7 +26,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 
 .services__card {
   display: flex;
@@ -55,4 +53,37 @@
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
+}
+
+.shadow {
+  position: relative;
+  min-height: 300px;
+
+  &::before {
+    position: absolute;
+    height: 10px;
+    bottom: -10px;
+    left: 50%;
+    width: calc(100% - 40px);
+    transform: translateX(-50%);
+    
+
+    border-radius: 0px 0px 12px 12px;
+    content: "";
+    background-color: #cacadb;
+  }
+  
+    &::after {
+    position: absolute;
+    height: 10px;
+    bottom: -20px;
+    left: 50%;
+    width: calc(100% - 80px);
+    transform: translateX(-50%);
+    
+
+    border-radius: 0px 0px 12px 12px;
+    content: "";
+    background-color: #E7E7F2;
+  }
 }
