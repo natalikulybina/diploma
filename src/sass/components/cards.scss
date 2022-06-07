@@ -29,13 +29,17 @@
 
 .services__card {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 315px;
   gap: 30px;
+}
+.card {
+  width: 315px;
+
 }
 
 .card__img {
+  max-width: 100%;
+  max-height: 200px;
   margin-bottom: 30px;
 }
 
