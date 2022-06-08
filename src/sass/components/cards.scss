@@ -5,8 +5,6 @@
 }
 
 .note {
-  margin: 0;
-  margin-bottom: 5px;
   color: $color-active-regular;
   font-weight: 700;
   font-size: 14px;
@@ -17,6 +15,7 @@
 
 
 .title {
+  margin-top: 10px;
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 30px;
@@ -30,11 +29,12 @@
 .services__card {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
+
 .card {
   width: 315px;
-
 }
 
 .card__img {

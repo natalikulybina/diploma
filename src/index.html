@@ -13,27 +13,36 @@
 <body>
   <header class="header">
     <div class="header-section">
+      <div class="header--container">
       <div class="header__nav">
-        <div class="header_lang_contacts bl3">
-        <div class="header__lang">
-          <ul class="lang__switcher">
-            <li class="lang__switcher__item"><a class="lang__switcher__link" href="">ук</a></li>
-            <li class="lang__switcher__item"><a class="lang__switcher__link" href="">ру</a></li>
-            <li class="lang__switcher__item"><a class="lang__switcher__link is-active" href="">en</a></li>
-          </ul>
+        <div class="header_lang_contacts">
+          <div class="header__lang">
+            <ul class="lang__switcher">
+              <li class="lang__switcher__item"><a class="lang__switcher__link" href="">ук</a></li>
+              <li class="lang__switcher__item"><a class="lang__switcher__link" href="">ру</a></li>
+              <li class="lang__switcher__item"><a class="lang__switcher__link is-active" href="">en</a></li>
+            </ul>
+          </div>
+          <div class="header__contacts">
+            <ul class="contacts__compact">
+              <li class="contacts__compact__adress">Kyiv, Mechnikova str., 14/1</li>
+              <li class="contacts__compact__phone"><a class="contacts__compact__link" href="tel:0800211927">0800 211
+                  927</a></li>
+              <li class="contacts__compact__face"><a href="#"><svg width="24" height="25" viewBox="0 0 24 25"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="facebook"
+                      d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                      fill="white" />
+                  </svg>
+                </a></li>
+            </ul>
+          </div>
         </div>
-        <div class="header__contacts">
-          <ul class="contacts__compact">
-            <li class="contacts__compact__adress">Kyiv, Mechnikova str., 14/1</li>
-            <li class="contacts__compact__phone"><a class="contacts__compact__link" href="tel:0800211927">0800 211
-                927</a></li>
-            <li class="contacts__compact__face"><a href=""><img src="img/facebook.svg" alt="facebook"></a></li>
-          </ul>
-        </div>
-       </div>
         <div class="header__container--logo">
-          <div class="header__logo bl1">
-            <svg class="logo__param" width="70" height="33" viewBox="0 0 70 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="header__logo">
+            <a href="#">
+            <svg class="logo__param" width="70" height="33" viewBox="0 0 70 33" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.64358 0H0V19.0926H2.64358V12.0094C2.64358 10.8111 2.94163 9.86583 3.53774 9.20012C4.13384 8.53441 4.95024 8.18824 5.96102 8.18824C6.82926 8.18824 7.55495 8.50778 8.13809 9.12024C8.72123 9.74601 9.01929 10.5315 9.01929 11.4769V19.1059H11.6758V11.4769C11.6758 9.71938 11.1964 8.3347 10.2374 7.29619C9.27846 6.25768 8.02146 5.73843 6.49233 5.73843C6.05173 5.73843 5.61114 5.79168 5.1835 5.91151C4.7429 6.03134 4.39301 6.16448 4.10792 6.31094C3.82283 6.45739 3.5507 6.61717 3.30448 6.80356C3.05826 6.98996 2.8898 7.12311 2.81205 7.20299C2.73429 7.28288 2.6695 7.33613 2.64358 7.37608V0Z"
                 fill="#F0145A" />
@@ -76,35 +85,34 @@
               <path
                 d="M67.9013 30.7104V32.016H67.0485V30.6999L65.6217 28.3308H66.5273L67.5117 29.9681L68.4963 28.3308H69.3333L67.9013 30.7104Z"
                 fill="white" />
-            </svg>
+            </svg></a>
           </div>
-          
-        <input type="checkbox" class="check" id="checked">
-        <label class="menu-btn" for="checked">
-          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 10.5H25" stroke="white" stroke-width="2" />
-            <path d="M7 16.5H25" stroke="white" stroke-width="2" />
-            <path d="M7 22.5H25" stroke="white" stroke-width="2" />
-          </svg>
-        </label>
-        
-        <nav class="drawer-menu">
-          <label for="checked">
-          <svg class="c-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
-            <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
-          </svg>
-        </label>
-          <ul class="drawer__menu">
-            <li><a class="drawer-menu-item" href="#">about us</a></li>
-            <li><a class="drawer-menu-item" href="#">services</a></li>
-            <li><a class="drawer-menu-item" href="#">team</a></li>
-            <li><a class="drawer-menu-item" href="#">publications</a></li>
-            <li><a class="drawer-menu-item" href="#">contact</a></li>
-          </ul>
-        </nav>
+          <input type="checkbox" class="check" id="checked">
+          <label class="menu-btn" for="checked">
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10.5H25" stroke="white" stroke-width="2" />
+              <path d="M7 16.5H25" stroke="white" stroke-width="2" />
+              <path d="M7 22.5H25" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+          <nav class="drawer-menu">
+            <label for="checked">
+              <svg class="c-close" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+              </svg>
+            </label>
+            <ul class="drawer__menu">
+              <li><a class="drawer-menu-item" href="#">about us</a></li>
+              <li><a class="drawer-menu-item" href="#">services</a></li>
+              <li><a class="drawer-menu-item" href="#">team</a></li>
+              <li><a class="drawer-menu-item" href="#">publications</a></li>
+              <li><a class="drawer-menu-item" href="#">contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="wrapper_menu bl2">
+        <div class="wrapper_menu">
           <ul class="header__menu">
             <li><a class="header-menu-item" href="#">about us</a></li>
             <li><a class="header-menu-item" href="#">services</a></li>
@@ -112,7 +120,7 @@
             <li><a class="header-menu-item" href="#">publications</a></li>
             <li><a class="header-menu-item" href="#">contact</a></li>
           </ul>
-    </div>
+        </div>
       </div>
       <div class="header__text"><span>you legal solutions provider</span></div>
       <a href="#" class="header-section__scroll">
@@ -121,8 +129,8 @@
           <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
         </svg>
       </a>
-      
-  </div>
+    </div>
+    </div>
   </header>
   <section class="section__content">
     <div class="content">
@@ -132,7 +140,6 @@
         <li><a class="content-list-item" href="#">Innovative</a></li>
         <li><a class="content-list-item" href="#">Business oriented</a></li>
       </ul>
-
       <div class="content-description">
         <div class="text-card">
           <h2 class="text-card__title">We turn the idea of legal services</h2>
@@ -143,9 +150,8 @@
       </div>
     </div>
   </section>
-
   <section class="section__services shadow">
-    <h4 class="note">Services</h4>
+    <h4><a href="#" class="note note__hover">Services</a></h4>
     <h1 class="title">What can we do better than others?</h1>
     <div class="services__card">
       <div class="card">
@@ -193,7 +199,7 @@
     <div class="container__team">
       <img src="img/team.jpg" alt="Олександр Олександровський" class="img img__border">
       <div class="team__description">
-        <h4 class="note">команда</h4>
+        <h4><a class="note note__hover" href="#">команда</a></h4>
         <p class="team__words">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
           навіть у ситуаціях, коли більшість безсилі.</p>
         <p class="cooperator__name">Олександр Олександровський</p>
@@ -201,9 +207,9 @@
       </div>
     </div>
     <span class="paginator">
-      <img src="img/ellipse.svg" alt="">
-      <img src="img/ellipse_l.svg" alt="">
-      <img src="img/ellipse_l.svg" alt="">
+      <a href="#"><img src="img/ellipse.svg" alt=""></a>
+      <a href="#"><img src="img/ellipse_l.svg" alt=""></a>
+      <a href="#"><img src="img/ellipse_l.svg" alt=""></a>
     </span>
   </section>
 
@@ -211,45 +217,45 @@
     <h4 class="note__company">They already trust us</h4>
     <div class="container__company">
       <div class="back_blue">
-      <img src="img/hillel.svg" alt="hillel">
-    </div>
-    <div class="back_blue back__wannabiz">
-      <img src="img/image.svg" alt="wannabiz">
-    </div>
-    <div class="back_blue back__tapgerine">
-      <img src="img/tapgerine.svg" alt="tapgerine">
-    </div>
-    <div class="back_blue back__3dlook">
-      <img src="img/3dlook.svg" alt="3dlook">
-    </div>
-    <div class="back_blue back__orangear">
-      <img src="img/orangear.svg" alt="orangear">
-    </div>
-    <div class="back_blue back__adtelligent">
-      <img src="img/adtelligent.svg" alt="adtelligent">
-    </div>
-    <div class="back_blue logo__none back__clickyy">
-      <img src="img/clickyy.svg" alt="clickyy">
-    </div>
-    <div class="back_blue logo__none back__ecolease">
-      <img src="img/ecolease.svg" alt="ecolease">
-    </div>
-    <div class="back_blue logo__none back__infra">
-      <img src="img/infra.svg" alt="infra">
-    </div>
-    <div class="back_blue logo__none back__sity">
-      <img src="img/sity.svg" alt="sity">
-    </div>
-    <div class="back_blue logo__none back__artprint">
-      <img src="img/artprint.svg" alt="artprint">
-    </div>
-    <div class="back_blue logo__none back__card">
-      <img src="img/card.svg" alt="card">
-    </div>
+        <img src="img/hillel.svg" alt="hillel">
+      </div>
+      <div class="back_blue back__wannabiz">
+        <img src="img/image.svg" alt="wannabiz">
+      </div>
+      <div class="back_blue back__tapgerine">
+        <img src="img/tapgerine.svg" alt="tapgerine">
+      </div>
+      <div class="back_blue back__3dlook">
+        <img src="img/3dlook.svg" alt="3dlook">
+      </div>
+      <div class="back_blue back__orangear">
+        <img src="img/orangear.svg" alt="orangear">
+      </div>
+      <div class="back_blue back__adtelligent">
+        <img src="img/adtelligent.svg" alt="adtelligent">
+      </div>
+      <div class="back_blue logo__none back__clickyy">
+        <img src="img/clickyy.svg" alt="clickyy">
+      </div>
+      <div class="back_blue logo__none back__ecolease">
+        <img src="img/ecolease.svg" alt="ecolease">
+      </div>
+      <div class="back_blue logo__none back__infra">
+        <img src="img/infra.svg" alt="infra">
+      </div>
+      <div class="back_blue logo__none back__sity">
+        <img src="img/sity.svg" alt="sity">
+      </div>
+      <div class="back_blue logo__none back__artprint">
+        <img src="img/artprint.svg" alt="artprint">
+      </div>
+      <div class="back_blue logo__none back__card">
+        <img src="img/card.svg" alt="card">
+      </div>
     </div>
   </section>
   <section class="section__publications">
-    <h4 class="note">Publications</h4>
+    <h4><a class="note note__hover" href="#">Publications</a></h4>
     <h1 class="title title__botoom">We have something to tell</h1>
     <div class="services__card card__gap ">
       <div class="card card__publications">
@@ -257,17 +263,20 @@
         <div class="cotainer__card">
           <h3 class="card__title publications__title">Equity associate</h3>
           <p class="date">April 22</p>
-          <p class="card__description publications__description">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before
+          <p class="card__description publications__description">I'm a jun on projects. I am a co-owner of a law firm.
+            How it happened. Before
             entering my parents told me that if I…</p>
         </div>
       </div>
       <div class="card card__publications">
         <img class="card__img img__publications" src="img/gdpr.jpg" alt="">
         <div class="cotainer__card">
-          <h3 class="card__title publications__title">Penalty for the Good Corporation: what will happen to Google and others for violating
+          <h3 class="card__title publications__title">Penalty for the Good Corporation: what will happen to Google and
+            others for violating
             the GDPR</h3>
-            <p class="date">September 29</p>
-          <p class="card__description publications__description">And why the recovery of 50 million euros could be a fateful precedent According
+          <p class="date">September 29</p>
+          <p class="card__description publications__description">And why the recovery of 50 million euros could be a
+            fateful precedent According
             to Mind.ua January 21 National Commission for Data Protection.</p>
         </div>
       </div>
@@ -276,7 +285,8 @@
         <div class="cotainer__card">
           <h3 class="card__title publications__title">Millennial Testament</h3>
           <p class="date">August 19</p>
-          <p class="card__description publications__description">What and how modern vloggers, opinion leaders and crypto-millionaires will
+          <p class="card__description publications__description">What and how modern vloggers, opinion leaders and
+            crypto-millionaires will
             inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
         </div>
       </div>
@@ -285,16 +295,29 @@
   <footer class="footer">
     <div class="footer__container">
       <div class="block bl1">
-      <p class="footer__adress">Kyiv, Mechnikova str., 14/1</p>
-      <h4 class="notes">On map</h4>
-    </div>
-    <div class="block bl2">
-      <img class="img__face" src="img/face-footer.svg" alt="facebook">
-      <a class="footer__number" href="tel:0800211927">0800 211 927</a>
-      <a class="footer__mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
-    </div>
-    <div class="block bl3 footer__content">
-      <p class="footer__note">© 2021 HLEGAL Law company, LLC</p>
+        <p class="footer__adress">Kyiv, Mechnikova str., 14/1</p>
+        <h4><a class="notes" href="#">On map</a></h4>
+      </div>
+      <div class="block bl2">
+        <a href="#" class="img__face"><svg width="39" height="38" viewBox="0 0 39 38" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_41476_340)">
+              <path id="facebook"
+                d="M38.5 19.1161C38.5 8.55857 29.9934 0 19.5 0C9.00658 0 0.5 8.55857 0.5 19.1161C0.5 28.6575 7.44803 36.5659 16.5312 38V24.6419H11.707V19.1161H16.5312V14.9046C16.5312 10.1136 19.3678 7.46723 23.7078 7.46723C25.7866 7.46723 27.9609 7.84059 27.9609 7.84059V12.545H25.5651C23.2048 12.545 22.4688 14.0185 22.4688 15.5302V19.1161H27.7383L26.8959 24.6419H22.4688V38C31.552 36.5659 38.5 28.6575 38.5 19.1161Z"
+                fill="#24A3FF" />
+            </g>
+            <defs>
+              <clipPath id="clip0_41476_340">
+                <rect width="38" height="38" fill="white" transform="translate(0.5)" />
+              </clipPath>
+            </defs>
+          </svg></a>
+        <a class="footer__number" href="tel:0800211927">0800 211 927</a>
+        <a class="footer__mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+      </div>
+      <div class="block bl3 footer__content">
+        <p class="footer__note">© 2021 HLEGAL Law company, LLC</p>
+      </div>
     </div>
   </footer>
 </body>
