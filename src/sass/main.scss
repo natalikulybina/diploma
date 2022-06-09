@@ -52,11 +52,6 @@ a svg:hover #facebook {
 }
 
 @media screen and (min-width: $tablet-small) {
-  .header-section::before {
-    width: 893.28px;
-    height: 1024px;
-    top: calc(50% - 1024px/2);
-  }
 
   .header__nav {
     padding-top: 50px;
@@ -313,12 +308,6 @@ a svg:hover #facebook {
 
 @media screen and (min-width: $tablet) { 
 
-.header-section::before {
-  width: 669.96px;
-  height: 768px;
-  top: calc(50% - 768px/2);
-}
-
 .header--container {
   padding-top: 50px;
   padding-left: 60px;
@@ -425,12 +414,6 @@ a svg:hover #facebook {
 
 @media screen and (min-width: $dekstop) {
 
-.header-section::before {
-  width: 697px;
-  height: 799px;
-  top: calc(50% - 799px/2 + 0.5px);
-}
-
 .content-description {
   padding-top: 43px;
   padding-bottom: 43px;
@@ -488,12 +471,6 @@ a svg:hover #facebook {
 
 @media screen and (min-width: $dekstop-hd) {
   
-.header-section::before {
-  width: 872.34px;
-  height: 1000px;
-  top: calc(50% - 1000px/2);
-}
-
 .header--container {
   padding-left: 160px;
   padding-right: 160px;
