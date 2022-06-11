@@ -1,6 +1,5 @@
 .section__services {
   padding: 30px;
-  background: $color-gradient-supersoft;
   border-radius: 0px 0px 12px 12px;
 }
 
@@ -87,5 +86,10 @@
     border-radius: 0px 0px 12px 12px;
     content: "";
     background-color: #E7E7F2;
+  }
+
+  .note::after {
+    content: url(../img/Vector.svg);
+    margin-left: 5.5px;
   }
 }

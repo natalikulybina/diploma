@@ -1,6 +1,9 @@
+.wrapper_back {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);;
+}
+
 .header-section {
   height: 100vh;
-  background-color: $color-main;
   position: relative;
   overflow: hidden;
 
@@ -102,8 +105,8 @@
   opacity: 1;
   z-index: 2;
 }
-/*
-.check:checked ~ .close-menu {
+
+/*.check:checked ~ .close-menu {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   -webkit-transition-delay: .3s;
@@ -213,4 +216,8 @@ align-items: center;
 
 .header__menu {
   display: none;
+}
+
+a svg:hover #facebook { 
+  fill: #F0145A;
 }
