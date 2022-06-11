@@ -1,13 +1,13 @@
-@import '../utils/fonts.scss';
-@import '../utils/variables.scss';
-@import '../components/header.scss';
-@import '../components/content.scss';
-@import '../components/cards.scss';
-@import '../components/team.scss';
-@import '../components/company.scss';
-@import '../components/publications.scss';
-@import '../components/footer.scss';
-@import '../utils/media.scss';
+@import 'utils/fonts.scss';
+@import 'utils/variables.scss';
+@import 'components/header.scss';
+@import 'components/content.scss';
+@import 'components/cards.scss';
+@import 'components/team.scss';
+@import 'components/company.scss';
+@import 'components/publications.scss';
+@import 'components/footer.scss';
+@import 'utils/media.scss';
 
 html {
     font-size: 18px;
@@ -103,4 +103,5 @@ color: #FFFFFF;
 .section__services {
     padding-top: 60px;
 }
+
 }
