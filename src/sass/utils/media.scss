@@ -1,3 +1,5 @@
+@use '../utils/variables.scss' as *;
+
 @media screen and (min-width: $tablet-small) {
 
     .header__nav {
