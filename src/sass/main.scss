@@ -1,13 +1,13 @@
-@import 'utils/fonts.scss';
-@import 'utils/variables.scss';
-@import 'components/header.scss';
-@import 'components/content.scss';
-@import 'components/cards.scss';
-@import 'components/team.scss';
-@import 'components/company.scss';
-@import 'components/publications.scss';
-@import 'components/footer.scss';
-@import 'utils/media.scss';
+@use 'utils/fonts.scss';
+@use 'utils/variables.scss';
+@use 'components/header.scss';
+@use 'components/content.scss';
+@use 'components/cards.scss';
+@use 'components/team.scss';
+@use 'components/company.scss';
+@use 'components/publications.scss';
+@use 'components/footer.scss';
+@use 'utils/media.scss';
 
 html {
   font-size: 18px;
