@@ -106,7 +106,7 @@
   z-index: 2;
 }
 
-/*.check:checked ~ .close-menu {
+/*.check:checked ~ .close-menu{
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   -webkit-transition-delay: .3s;
@@ -114,6 +114,7 @@
   background: rgba(0, 0, 0, .5);
   visibility: visible;
   opacity: 1;
+  z-index: 3;
 }*/
 
 .c-close {

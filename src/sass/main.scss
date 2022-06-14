@@ -37,8 +37,14 @@ ul {
 
 .img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 a {
   text-decoration: none;
+}
+
+.note::after {
+  content: url(../img/Vector.svg);
+  margin-left: 5.5px;
 }
