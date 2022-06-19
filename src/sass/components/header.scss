@@ -25,15 +25,15 @@
     left: 50%;
     transform: translateX(-50%);
     outline: none;
-    z-index: 2;
+    z-index: 1;
   }
 
-  &__scroll svg>* {
+  &__scroll svg > * {
     transition: stroke 300ms;
   }
 
-  &__scroll:hover svg>*,
-  &__scroll:focus svg>* {
+  &__scroll:hover svg > *,
+  &__scroll:focus svg > * {
     stroke: #F0145A;
   }
 
