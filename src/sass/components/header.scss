@@ -80,7 +80,7 @@
 
 /* menu button - label tag */
 .menu-btn {
-  width: 40px;
+  width: 32px;
   cursor: pointer;
   z-index: 3;
 }
@@ -121,7 +121,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  gap: 6px;
 }
 
 .header_lang_contacts {
@@ -137,6 +136,8 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 15px;
+padding-top: 12.5px;
 }
 
 .header__lang {
@@ -185,7 +186,6 @@ align-items: center;
 }
 
 .header__logo {
-  padding: 15px;
   z-index: 1;
 }
 
