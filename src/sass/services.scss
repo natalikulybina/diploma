@@ -52,7 +52,7 @@
   &__link::after {
     display: inline-block;
     margin-left: 4px;
-    content: url(../../img/Slash2.svg);
+    content: url(../img/Slash2.svg);
   }
 
   &__text {
@@ -82,7 +82,7 @@
   }
 
   .breadcrumb__link::after {
-    content: url(../../img/slash.svg);
+    content: url(../img/slash.svg);
     width: 21px;
     height: 47px;
   }
