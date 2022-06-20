@@ -108,7 +108,7 @@
   z-index: 2;
 }
 
-/*.check:checked ~ .close-menu{
+/*#checked:checked ~ .header-section > .drawer-menu{
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   -webkit-transition-delay: .3s;

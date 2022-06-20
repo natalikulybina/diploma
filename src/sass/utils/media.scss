@@ -435,6 +435,22 @@
   .note__hover:hover::after {
     content: url("data:image/svg+xml,%3Csvg width='8' height='11' viewBox='0 0 8 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1L6 5.5L1.5 10' stroke='%23F0145A' stroke-width='2'/%3E%3C/svg%3E");
   }
+
+  .note__hover:hover {
+    color: #F0145A;
+  }
+
+  .header-menu-item:hover{
+    border-bottom: 2px solid #FFFFFF;
+  }
+
+  .content-list-item:hover {
+    color: #F0145A;
+  }
+  
+  .footer__mail:hover {
+    color: #F0145A;
+  }
   
   }
   
