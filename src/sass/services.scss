@@ -26,6 +26,10 @@
   color: #F0145A;
 }
 
+.menu-is-active {
+  color: #F0145A;
+}
+
 .section__company {
   padding-top: 90px;
 }
@@ -88,7 +92,6 @@
   }
 
   .menu-is-active {
-    color: #F0145A;
     border-bottom: 2px solid #F0145A;
     ;
   }

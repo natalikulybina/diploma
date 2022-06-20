@@ -60,15 +60,19 @@
 
 .drawer-menu-item {
   display: block;
+  margin-bottom: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
-  line-height: 52px;
+  line-height: 30px;
+  background: #F5F5FA;
+  border-radius: 12px;
   color: $color-active-regular;
 }
 
 .drawer-menu li a:hover {
-  color: $color-main-accent;
   background: $color-grey-separator;
   border-radius: 12px;
 }
