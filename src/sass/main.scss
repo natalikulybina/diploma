@@ -48,3 +48,8 @@ a {
   content: url(../img/Vector.svg);
   margin-left: 5.5px;
 }
+
+.lang__switcher__link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
