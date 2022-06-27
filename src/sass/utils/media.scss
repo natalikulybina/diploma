@@ -31,8 +31,12 @@
       align-items: center;
     }
   
-    .contacts__compact__adress {
-      display: block;
+    .contacts__compact__adress,
+    .contacts__compact__phone,
+    .footer__number,
+    .footer__adress {
+      display: flex;
+      align-items: center;
       z-index: 1;
     }
   
@@ -181,6 +185,7 @@
     }
   
     .services__card {
+      justify-content: space-between;
       gap: 60px;
     }
   
@@ -200,13 +205,13 @@
     }
   
     .container__team {
-      width: 648px;
       display: flex;
       flex-direction: column;
+      width: 650px;
+      margin: 0 auto;
     }
   
     .img__border {
-      width: 648px;
       height: 500px;
     }
   
@@ -325,6 +330,12 @@
   
   }
   
+  @media screen and (min-width: 1280px) {
+    .back_blue {
+      width: 300px;
+    }
+  } 
+
   @media screen and (min-width: $tablet) { 
   
   .header--container {
@@ -483,10 +494,14 @@
   
   }
   
-  @media screen and (min-width: 1812px) {
+  @media screen and (min-width: 1800px) {
     .block {
       width: 650px;
     }
+
+    .back_blue {
+      width: 400px;
+  }
   }
   
   @media screen and (min-width: $dekstop-hd) {
@@ -526,8 +541,9 @@
   }
   
   .container__company {
+    width: 1720px;
     border-radius: 12px;
-    margin: 0 100px;
+    margin: 0 auto;
     overflow: hidden;
   }
   

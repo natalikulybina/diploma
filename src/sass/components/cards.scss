@@ -33,7 +33,7 @@
 }
 
 .card {
-  width: 315px;
+  width: 100%;
 }
 
 .card__img {
@@ -48,6 +48,11 @@
   font-size: 22px;
   line-height: 27px;
   color: $color-active-regular;
+}
+
+.card__title:hover {
+  cursor: pointer;
+  color: #F0145A;
 }
 
 .card__description {

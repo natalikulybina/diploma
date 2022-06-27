@@ -48,11 +48,11 @@
 .drawer-menu {
   box-sizing: border-box;
   position: fixed;
-  top: 50%;
+  top: 48%;
   right: 8px;
   width: calc(100% - 16px);
-  height: 50%;
   padding: 12px;
+  padding-bottom: 0px;
   background: #FFFFFF;
   border-radius: 12px 12px 0px 0px;
   opacity: 0;
@@ -92,7 +92,7 @@
 .l-menu-wrapper {
   position: absolute;
   height: 100%;
-  width:100%;
+  width: 100%;
   background-color: rgba(50, 50, 100, 0.7);
   z-index: 3;
   display: none;
@@ -206,6 +206,10 @@ padding-top: 12.5px;
   color: #FFFFFF;
 }
 
-a svg:hover #facebook { 
+.contacts__compact__face:hover{ 
+  fill: #F0145A;
+}
+
+.img__face:hover{ 
   fill: #F0145A;
 }
